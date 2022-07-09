@@ -1,0 +1,31 @@
+{
+  "name": "webapp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriram2509/Nodejs_mongodb_Expressjs_webapp2.git"
+  },
+  "author": "sriram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sriram2509/Nodejs_mongodb_Expressjs_webapp2/issues"
+  },
+  "homepage": "https://github.com/sriram2509/Nodejs_mongodb_Expressjs_webapp2#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "pm2": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "rsync": "^0.6.1"
+  }
+}
